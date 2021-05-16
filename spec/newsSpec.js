@@ -8,6 +8,10 @@ describe('News', () => {
     news = new News
   })
 
-  
+  it('returns the id', () => {
+    expect(news.returnId()).toBe()
+  })
+
+
 
 })
